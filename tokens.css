@@ -1,0 +1,63 @@
+/* Phosphor City — Design System
+   Dark Japanese Cyberpunk · extracted from reference imagery
+   ---------------------------------------------------------- */
+
+:root {
+  /* Backgrounds */
+  --bg-void:          #030A05;
+  --bg-base:          #0A1A0D;
+  --bg-surface:       #112215;
+  --bg-elevated:      #1A3320;
+
+  /* Greens */
+  --green-neon:       #00FF5C;
+  --green-bright:     #00CC4A;
+  --green-mid:        #009933;
+  --green-deep:       #1A4A25;
+  --green-muted:      #0D2B18;
+
+  /* Amber */
+  --amber-glow:       #F0D060;
+  --amber-mid:        #C48A20;
+  --amber-dim:        #7A5510;
+
+  /* Structure */
+  --structure-dark:   #151F12;
+  --structure-wire:   #0D150A;
+
+  /* Text */
+  --text-body:        #A8D4B0;
+  --text-caption:     #4A7A55;
+  --text-inverse:     #030A05;
+
+  /* Effects */
+  --glow-neon:        0 0 12px #00FF5C55, 0 0 40px #00CC4A22;
+  --glow-amber:       0 0 8px #F0D06066, 0 0 24px #C48A2033;
+  --blur-frosted:     blur(8px);
+
+  /* Gradients */
+  --gradient-sky:     radial-gradient(ellipse at top, #00CC4A18 0%, transparent 65%);
+
+  /* Typography */
+  --font-display:     'JetBrains Mono', monospace;
+  --font-body:        'Inter', sans-serif;
+  --font-weight-light:   300;
+  --font-weight-body:    500;
+  --font-weight-display: 700;
+
+  /* Spacing scale */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Radii */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   16px;
+  --radius-full: 9999px;
+}
